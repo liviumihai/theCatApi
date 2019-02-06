@@ -1,0 +1,23 @@
+	{% extends "layout.html" %}
+	{% block title %}Home{% endblock %}
+	{% block content %}
+	<!--	<h1 style="text-align: center">Cat App</h1> -->
+		
+		<div class="text-center" style="padding: 10px 10px 20px 10px">
+			<img src="{{ img }}" class="mw-75; mh-125; rounded">
+		</div>
+
+	
+		<div>
+			<table class="table" style="text-align: center; text-decoration: none;">
+				<tr>
+					<td><a href="{{ url_for('beng') }}" class="btn btn-outline-primary btn-sm" role="button">Bengal</a></td>
+					<td><a href="{{ url_for('aege') }}" class="btn btn-outline-primary btn-sm" role="button">Aegean</a></td>
+					<td><a href="{{ url_for('abys') }}" class="btn btn-outline-primary btn-sm" role="button">Abyssinian</a></td>
+					<td><a href="{{ url_for('acur') }}" class="btn btn-outline-primary btn-sm" role="button">American Curl</a></td>	
+				</tr>
+			</table>
+		</div>
+
+	</div>
+	{% endblock %}

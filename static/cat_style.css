@@ -1,0 +1,11 @@
+h1 { 
+	font-size: 20px
+}
+
+img {
+	max-width: 300px
+}
+
+.border-1 {
+	border-width: medium;
+}

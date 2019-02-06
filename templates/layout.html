@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Cat API App - {% block title %}{% endblock %}</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+		<link rel="stylesheet" href="/static/cat_style.css">
+	</head>
+	
+	<body>
+		<div class="container">
+			<div class="text-center" style="padding: 0px 0px 20px 0px">
+				<img src="https://thecatapi.com/meta-tag-image.png">
+			</div>
+			{% block content %}
+		
+			{% endblock %}
+			<footer>
+				<div class="footer-copyright text-center py-3">©2019, Michael Nita</div>
+				<div class="text-center">
+					<span style="text-decoration: none">
+						and TheCatApi - <a href="https://thecatapi.com/">https://thecatapi.com/</a>
+					</span>
+				</div>
+			</footer>
+		<div>
+	</body>
+</html>
